@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-    int s;
+#define SUM(x, y) ((x) + (y))
 
-    s = SUM(x, y);
-    printf("%d\n", s);
-    return (0);
+#endif
 }
